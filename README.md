@@ -1,6 +1,5 @@
 # simple-react-website
-simple beginner friendly react web template
+simple beginner friendly one page react web template.
 
 # Tech
-1 React
-2 Scss
+React and Scss
