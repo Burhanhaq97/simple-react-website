@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@import "variable";
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: $font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 2.3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  height: 100vh;
+  padding: 10rem 8rem;
+  background-color: $sectionBackground;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+}
+
+.center-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list {
+  font-size: 2rem;
+  list-style-type: disc;
+  padding: 1rem 0;
+  line-height: 3.5rem;
+}
+
+.sectionImg {
+  width: 40rem;
+}
+
+@import "nav";
+@import "header";
+@import "service";
+@import "about";
+@import "product";
+@import "footer";
